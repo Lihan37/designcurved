@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
 
   return (
-    <nav className="bg-gray-100 p-4">
+    <nav className="bg-gradient-to-r from-[#e6d1ca] via-[#cbe1eb] to-[#ece9dc] p-4 border border-b-slate-400">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <img src={vector} alt="" />
@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
 
             <div className="ml-2">
-              <h2 className="text-sm font-semibold">Need help?</h2>
+              <h2 className="text-sm text-gray-900 font-semibold">Need help?</h2>
               <h2 className="text-gray-900 font-bold text-xl">01716285196</h2>
             </div>
           </div>
@@ -111,6 +111,4 @@ const NavLinkWithDropdown = ({ text }) => {
     );
   };
   
-  
-
 export default Navbar;
