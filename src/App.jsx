@@ -4,6 +4,7 @@ import Services from './Home/Services';
 import Banner from './Home/Banner';
 import Potential from './Home/Potential';
 import Agency from './Home/Agency';
+import Quote from './Home/Quote';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Services></Services>
       <Potential></Potential>
       <Agency></Agency>
+      <Quote></Quote>
     </div>
   );
 };
