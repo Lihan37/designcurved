@@ -43,7 +43,7 @@ const Quote = () => {
           <img src={img11} alt="Quote" className="w-1/4 h-1/4" />
           <img src={img10} alt="Signature" className="w-1/4 h-1/6 mt-6 " />
         </div>
-        <div className="absolute -bottom-16 left-1/2 lg:w-[1000px] transform -translate-x-1/2 bg-blue-200 p-10 rounded-lg">
+        <div className="hidden lg:block absolute -bottom-16 left-1/2 lg:w-[1000px] transform -translate-x-1/2 bg-blue-200 p-10 rounded-lg">
           <div className="flex justify-between">
             <div className="flex items-center gap-4">
               <div className="bg-cyan-300 rounded-2xl p-4">

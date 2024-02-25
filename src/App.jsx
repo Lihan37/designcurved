@@ -5,6 +5,7 @@ import Banner from './Home/Banner';
 import Potential from './Home/Potential';
 import Agency from './Home/Agency';
 import Quote from './Home/Quote';
+import Develop from './Home/Develop';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Potential></Potential>
       <Agency></Agency>
       <Quote></Quote>
+      <Develop></Develop>
     </div>
   );
 };
