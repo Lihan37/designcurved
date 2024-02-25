@@ -3,6 +3,7 @@ import Navbar from './Home/Navbar';
 import Services from './Home/Services';
 import Banner from './Home/Banner';
 import Potential from './Home/Potential';
+import Agency from './Home/Agency';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Banner></Banner>
       <Services></Services>
       <Potential></Potential>
+      <Agency></Agency>
     </div>
   );
 };
