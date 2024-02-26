@@ -8,6 +8,7 @@ import Quote from './Home/Quote';
 import Develop from './Home/Develop';
 import Contact from './Home/Contact';
 import Card from './Home/Card';
+import Passion from './Home/Passion';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Develop></Develop>
       <Contact></Contact>
       <Card></Card>
+      <Passion></Passion>
     </div>
   );
 };

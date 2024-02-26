@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div className="lg:w-[1000px] mb-10 mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div className="col-span-3 lg:col-span-1 items-center px-5 lg:px-0  ">
-          <h2 className="text-2xl font-bold">Contact For Urgent Service</h2>
+        <div className="col-span-3 lg:col-span-1 items-center lg:my-5 px-5 lg:px-0  ">
+          <h2 className="text-2xl lg:pt-16 font-bold">Contact For Urgent Service</h2>
           <p>
             Creative agency encompasses a wide range of services related to the
             design creative and strategic
