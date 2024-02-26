@@ -9,6 +9,7 @@ import Develop from './Home/Develop';
 import Contact from './Home/Contact';
 import Card from './Home/Card';
 import Passion from './Home/Passion';
+import Footer from './Home/Footer';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Contact></Contact>
       <Card></Card>
       <Passion></Passion>
+      <Footer></Footer>
     </div>
   );
 };
