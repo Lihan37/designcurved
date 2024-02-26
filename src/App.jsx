@@ -6,6 +6,7 @@ import Potential from './Home/Potential';
 import Agency from './Home/Agency';
 import Quote from './Home/Quote';
 import Develop from './Home/Develop';
+import Contact from './Home/Contact';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Agency></Agency>
       <Quote></Quote>
       <Develop></Develop>
+      <Contact></Contact>
     </div>
   );
 };
