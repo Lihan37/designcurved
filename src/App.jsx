@@ -7,6 +7,7 @@ import Agency from './Home/Agency';
 import Quote from './Home/Quote';
 import Develop from './Home/Develop';
 import Contact from './Home/Contact';
+import Card from './Home/Card';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Quote></Quote>
       <Develop></Develop>
       <Contact></Contact>
+      <Card></Card>
     </div>
   );
 };
